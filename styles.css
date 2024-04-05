@@ -269,10 +269,31 @@ width: 10%;
   .simply-safe{
     width: 20px;
   }
+  
+  .text-sub1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    height: 60vh;
+    width: 75vw;
+    border-radius: 20px;
+    box-shadow: 0 25px 100px 0 rgba(0, 0, 0, 0.145);
+    background: linear-gradient(
+        0deg,
+        rgba(34, 34, 34, 0.171),
+        rgba(50, 50, 50, 0.697)
+      ),
+      url("/assets/condo.jpeg");
+    object-fit: cover;
+    margin-left: 120px;
+  
+  }
   .content{
   display: flex;
   justify-content:space-between;
  flex-direction: column;
+ margin:30px;
   }
   .Advertise{
     background-color: #191e3b;
@@ -282,3 +303,36 @@ width: 10%;
    border: none;
    width: 200px;
   }
+  .content-text{
+  
+    font-weight: 700;
+    color:aliceblue;
+    width:20%;
+  }
+  .Advertise1{
+    margin-left: 150px;
+    background-color: #191e3b;
+    color: white;
+    padding: 16px;
+    border-radius: 25px;
+   border: none;
+   width: 200px;
+  }
+  .map1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  margin-left:100px;
+  margin-top: 60px;
+  justify-content: center;
+  width:80%;
+  }
+  .map1>h1{
+align-self: flex-start;
+font-family: "FreightSansLF Pro", "Noto Sans JP", "Noto Sans KR", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", "Segoe UI", Tahoma, -apple-system, Roboto, sans-serif;;
+
+  }
+  .footer-par{
+ font-size: smaller;
+ font-family: Arial, Helvetica, sans-serif;
+  } 
