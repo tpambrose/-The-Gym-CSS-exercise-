@@ -188,8 +188,8 @@ width: 10%;
     box-shadow: 0 25px 100px 0 rgba(0, 0, 0, 0.145);
     background: linear-gradient(
         0deg,
-        rgba(16, 16, 16, 0.861),
-        rgba(22, 22, 22, 0.697)
+        rgba(34, 34, 34, 0.171),
+        rgba(50, 50, 50, 0.697)
       ),
       url("/assets/main.jpeg");
     object-fit: cover;
@@ -216,16 +216,19 @@ width: 10%;
   }
   .holidays{
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    gap:10px;
-    width:100%;
+    gap:30px;
+    width:85%;
     height: 100%;
+    margin-top: 50px;
   }
 
   .ppl{
     border: 1px;
 
     border-radius: 15px;
+    max-width: 80%;
     
 
   }
@@ -233,20 +236,49 @@ width: 10%;
     border: 1px;
 
     border-radius: 15px;
+    max-width: 80%;
+    gap: 20px;
     
 
   }
   .ppl2{
     border: 1px;
-
-    border-radius: 15px;
+    border-radius: 20px;
+   
     
+    gap:20px;
 
   }
-  .ppl3{
-    border: 1px;
-
-    border-radius: 15px;
-    
-
+  .bottom-text{
+    display: flex;
+    justify-content:center;
+    gap:30px;
+    width: 85%;
+    margin: 50px;
+    font-family: "FreightSansLF Pro", "Noto Sans JP", "Noto Sans KR", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", "Segoe UI", Tahoma, -apple-system, Roboto, sans-serif;;
+  }
+  .sub-bottom-text{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    font-size:10px;
+    font-weight: bold;
+    color: #191e3b;
+    padding: 1px;
+  }
+  .simply-safe{
+    width: 20px;
+  }
+  .content{
+  display: flex;
+  justify-content:space-between;
+ flex-direction: column;
+  }
+  .Advertise{
+    background-color: #191e3b;
+    color: white;
+    padding: 16px;
+    border-radius: 25px;
+   border: none;
+   width: 200px;
   }
